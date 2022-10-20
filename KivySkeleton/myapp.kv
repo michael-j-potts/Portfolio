@@ -1,0 +1,176 @@
+#kivy 2.00.0
+#Filename: FootMonitor.kv
+
+<LoginScreen>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img2
+			pos: self.pos
+			size: self.size
+			source: './train.jpg'
+
+	FloatLayout:
+		id: login_screen
+		pos: 0, 0
+		size: root.width, root.height
+		FloatLayout:
+			Label:
+				text: 'Username: '
+				size_hint: 0.22, 0.09
+				pos_hint: {'x': 0.1, 'y': 0.82}
+
+			TextInput:
+				id: login
+				size_hint: 0.5, 0.08
+				pos_hint: {'x': 0.4, 'y': 0.82}
+				multiline: False
+
+		FloatLayout:
+			Label:
+				text: 'Password: '
+				size_hint: 0.22, 0.09
+				pos_hint: {'x': 0.1, 'y': 0.7}
+
+			TextInput:
+				id: password
+				size_hint: 0.5, 0.08
+				pos_hint: {'x': 0.4, 'y': 0.7}
+				multiline: False
+				password: True
+
+		FloatLayout:
+			Button:
+				text: 'Login'
+				size_hint: 0.15, 0.09
+				pos_hint:  {'x': 0.8, 'y': 0.2}
+				on_press:
+					root.try_login(login.text, password.text)
+
+					
+
+<DashBoard>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img2
+			pos: self.pos
+			size: self.size
+			source: 'mountain.jpg'
+
+	FloatLayout:
+		pos: 0, 0
+		size: root.width, root.height
+		Button:
+			text: "Metrics"
+			pos_hint: {'x': 0.03, 'y': 0.1}
+			size_hint: 0.22, 0.09
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Metrics'
+
+		Button:
+			text: "Alerts"
+			pos_hint: {'x': 0.27, 'y': 0.1}
+			size_hint: 0.22, 0.09
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Alerts'
+
+		Button:
+			text: "Resources"
+			pos_hint: {'x': 0.51, 'y': 0.1}
+			size_hint: 0.22, 0.09
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Resources'
+
+		Button:
+			text: "About"
+			pos_hint: {'x': 0.75, 'y': 0.1}
+			size_hint: 0.22, 0.09
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'About'
+
+<Metrics>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img3
+			pos: self.pos
+			size: self.size
+			source: "trees.jpg"
+
+	FloatLayout:
+		pos: 0, 0
+		size: root.width, root.height
+		
+		Button:
+			text: "Return"
+			pos_hint: {'x': 0.8, 'y': 0.9}
+			size_hint: 0.18, 0.07
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Dashboard'
+<Alerts>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img4
+			pos: self.pos
+			size: self.size
+			source: "trees.jpg"
+	
+	FloatLayout:
+		pos: 0, 0
+		size: root.width, root.height
+		Button:
+			text: "Return"
+			pos_hint: {'x': 0.8, 'y': 0.9}
+			size_hint: 0.18, 0.07
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Dashboard'
+<Resources>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img5
+			pos: self.pos
+			size: self.size
+			source: "trees.jpg"
+	
+	FloatLayout:
+		pos: 0, 0
+		size: root.width, root.height
+		Button:
+			text: "Return"
+			pos_hint: {'x': 0.8, 'y': 0.9}
+			size_hint: 0.18, 0.07
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Dashboard'
+
+<About>:
+	orientation: 'vertical'
+	canvas.before:
+		Rectangle:
+			id: img6
+			pos: self.pos
+			size: self.size
+			source: "trees.jpg"
+
+	
+	
+	FloatLayout:
+		pos: 0, 0
+		size: root.width, root.height
+		Button:
+			text: "Return"
+			pos_hint: {'x': 0.8, 'y': 0.9}
+			size_hint: 0.18, 0.07
+			on_press:
+				root.manager.transition.direction = 'up'
+				root.manager.current = 'Dashboard'
+
