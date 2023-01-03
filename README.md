@@ -9,11 +9,8 @@ This folder contains code for several projects that I worked on in CS 437 Intern
 ### KivySkeleton (skeleton):
 This folder contains some skeleton examples of my initial exposure to kivy, a python based framework to create android applications. 
 
-### LearningLatentRepresentationsProject (completed):
-This project is a summary of my final work for my class CS 598 Deep Learning for Health Care. This project worked to evaluate, update and extend the works of the given authors in classifying patient survival outcomes for ICU stays using the MIMIC-iii dataset. My final results show a minor improvement in performance over the original authors through refinement of feature selection.
-
-### TimeSeriesDataAlgorithms (skeleton):
-This project was taken from my time in the Sunstella research program working with Iquvia claims data. This includes the data cleaning steps as well as several baseline algorithms.
+### TimeSeriesDataAlgorithms (various):
+This folder contains three projects from my personal projects, school projects and internship. Each project is related to time series algorithm implementations.
 
 ### Visualizations (completed):
 This project was created as part of CS 416 Data Visualization. This file contains a tableau chart of the average global life expectancy compared to health expenditures per capita. 
