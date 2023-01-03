@@ -9,6 +9,9 @@ This folder contains code for several projects that I worked on in CS 437 Intern
 ### KivySkeleton (skeleton):
 This folder contains some skeleton examples of my initial exposure to kivy, a python based framework to create android applications. 
 
+### Textmining (complete):
+This folder contains text mining projects related to webcrawlers for data gathering.
+
 ### TimeSeriesDataAlgorithms (various):
 This folder contains three projects from my personal projects, school projects and internship. Each project is related to time series algorithm implementations.
 
