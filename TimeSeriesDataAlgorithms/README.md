@@ -11,8 +11,3 @@ https://arxiv.org/abs/2004.00221
 https://research.alvinwan.com/neural-backed-decision-trees/
 
 I will also be uploading a working version of my implementation of Neural Backed Decision Trees soon, but my work is currently incomplete.
-
-### StockPredictionModel (in progress, but phase 1 complete):
-I have included a working copy of my stock prediction program, which converts daily stock information into a time series data set, and uses several neural network models to predict stock prices.
-
-To be completed: creating a text mining webcrawler to evaluate daily new releases about a specific stock to determine if the stock is a strong, average or weak buy/sell, or neutral. These features will be fed into the phase 1 model to further enrich performance.
