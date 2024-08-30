@@ -4,7 +4,7 @@ Here are some of my projects:
 This folder contains a project that works to predict emissions of vehicles using several metrics.
 
 ### IOTProjects:
-This folder contains code for several projects that I worked on in CS 437 Internet Of Things. First, an basic autonomous robotic car that uses an ultrasonic sensor to make its immidiate physical location and distances from objects. The vehicle then relies on basic decision making for how to circumnavigate around objects to arrive at its inputted coordinate destination. RemoteAccess contains the code to control the vehicle via bluetooth and wifi through a d3 web implementation which allows for system monitoring and vehicle control.  
+This folder contains code for several projects that I worked on in CS 437 Internet Of Things. First, I created a 3D printed arm, that I coded with computer vision to replicated hand movement. Second, an autonomous robotic car that uses an ultrasonic sensor to make its immidiate physical location and distances from objects. The vehicle then relies on basic decision making for how to circumnavigate around objects to arrive at its inputted coordinate destination. RemoteAccess contains the code to control the vehicle via bluetooth and wifi through a d3 web implementation which allows for system monitoring and vehicle control.  
 
 ### Textmining:
 This folder contains text mining projects related to webcrawlers for data gathering.
