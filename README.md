@@ -1,7 +1,7 @@
 Here are some of my projects:
 
-### Emission Prediction:
-This folder contains a project that works to predict emissions of vehicles using several metrics.
+### Classification:
+This folder contains a project that works to predict and classify two different projects. The first project is an Emissions Prediciton project for vehicles, and the second is a sign language classifier, that predicts american sign language.
 
 ### IOTProjects:
 This folder contains code for several projects that I worked on in CS 437 Internet Of Things. First, I created a 3D printed arm, that I coded with computer vision to replicated hand movement. Second, an autonomous robotic car that uses an ultrasonic sensor to make its immidiate physical location and distances from objects. The vehicle then relies on basic decision making for how to circumnavigate around objects to arrive at its inputted coordinate destination. RemoteAccess contains the code to control the vehicle via bluetooth and wifi through a d3 web implementation which allows for system monitoring and vehicle control.  
